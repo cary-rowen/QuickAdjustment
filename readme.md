@@ -1,19 +1,14 @@
-# 快速调节
+# QuickAdjustment
 
-## 简介
+* Author: Cary-rowen <manchen_0528@outlook.com>
+* Compatibility: NVDA version 2019.3 and later
 
-　　用于快速调节某些功能的小插件，目前包含终纹环境下微软拼音的全拼 / 双拼切换、快捷开关触摸板和模拟按下 Application [键等功能。
+## Introduction
 
-## 说明
+This is a NVDA addon used to quickly adjust certain functions. The current functions include Microsoft Pinyin's Quanpin/Shuangpin input mode switching in the Chinese language environment, shortcut switch touchpad and simulated pressing Application [keys and others.
 
-1. 模拟按下 Application 键： NVDA + ;（分号，位于字母 L 的右边）；
-2. 开关触摸板状态： NVDA + '（单引号，位于分号[键的右边）
-3. 切换微软拼音的双拼 / 全拼输入模式： NVDA + Alt + B 。
+## Description
 
-## 维护
-
-* 作者： Eureka <manchen_0528@outlook.com>
-
-## 兼容性
-
-* 兼容2019.3及以上版本的NVDA
+1. Simulate pressing the Application key: NVDA +; (semicolon, located to the right of the letter L);
+2. Switch touchpad status: NVDA + '(single quotation mark, located at the right of the semicolon [key)
+3. Switch the ShuangPin/QuanPin input mode of Microsoft Pinyin in the Chinese language environment: NVDA + Alt + B.
