@@ -29,7 +29,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	@scriptHandler.script(
 		description=_("Switch Chinese input mode(Shuangpin or Quanpin)"), 
-		gestures=["kb:NVDA+alt+b"])
+		gestures=[])
 	def script_SwitchPinyinMode(self, gesture):
 		if isDoublePinyin() == None or not(isLanSupport('zh_CN')):
 			ui.message(_("not support"))

@@ -11,4 +11,4 @@ This is a NVDA addon used to quickly adjust certain functions. The current funct
 
 1. Simulate pressing the Application key: NVDA +; (semicolon, located to the right of the letter L);
 2. Switch touchpad status: NVDA + '(single quotation mark, located at the right of the semicolon [key)
-3. Switch the ShuangPin/QuanPin input mode of Microsoft Pinyin in the Chinese language environment: NVDA + Alt + B.
+3. Switch the ShuangPin/QuanPin input mode of Microsoft Pinyin in the Chinese language environment: No default keyboard command assigned(You can manually specify one in the "Input Gesture" dialog).

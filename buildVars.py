@@ -27,7 +27,7 @@ addon_info = {
 	# version
 	"addon_version": "0.2",
 	# Author(s)
-	"addon_author": "Eureka <manchen_0528@outlook.com>",
+	"addon_author": "Cary-rowen <manchen_0528@outlook.com>",
 	# URL for the add-on documentation support
 	"addon_url": None,
 	# Documentation file name
