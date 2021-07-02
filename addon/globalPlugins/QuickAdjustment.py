@@ -18,28 +18,28 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		gestures=["kb:nvda+'"])
 	def script_SwitchTouchpad(self, gesture):
 		if getTouchpadStatus() == None:
-			ui.message("not support")
+			ui.message(_("not support"))
 			return
 		else:
 			KeyboardInputGesture.fromName("windows+control+f24").send()
 		if getTouchpadStatus():
-			ui.message("Touchpad enabled")
+			ui.message(_("Touchpad enabled"))
 		else:
-			ui.message("Touchpad disabled")
+			ui.message(_("Touchpad disabled"))
 
 	@scriptHandler.script(
 		description=_("Switch Chinese input mode(Shuangpin or Quanpin)"), 
 		gestures=["kb:NVDA+alt+b"])
 	def script_SwitchPinyinMode(self, gesture):
 		if isDoublePinyin() == None or not(isLanSupport('zh_CN')):
-			ui.message("not support")
+			ui.message(_("not support"))
 			return
 		else:
 			setPinyinMode(int(not isDoublePinyin()))
 		if isDoublePinyin():
-			ui.message("Shuangpin input")
+			ui.message(_("Shuangpin input"))
 		else:
-			ui.message("QuanPin input")
+			ui.message(_("QuanPin input"))
 
 
 	@scriptHandler.script(
