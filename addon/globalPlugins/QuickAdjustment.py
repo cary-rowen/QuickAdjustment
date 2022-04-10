@@ -15,7 +15,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	@scriptHandler.script(
 		description=_("Switch touchpad"), 
-		gestures=["kb:nvda+'"])
+		gestures=[])
 	def script_SwitchTouchpad(self, gesture):
 		if getTouchpadStatus() == None:
 			ui.message(_("not support"))
@@ -44,7 +44,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	@scriptHandler.script(
 		description=_("Simulate pressing the Application key"), 
-		gestures=["kb:nvda+;"])
+		gestures=[])
 	def script_PressApplication(self, gesture):
 		KeyboardInputGesture.fromName("applications").send()
        
